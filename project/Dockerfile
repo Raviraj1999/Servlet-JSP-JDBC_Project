@@ -2,5 +2,5 @@
 FROM openjdk:8
 WORKDIR /app
 COPY . /app/
-RUN javac Login.java
+RUN javac login.jsp
 ENTRYPOINT ["java", "Main"]
